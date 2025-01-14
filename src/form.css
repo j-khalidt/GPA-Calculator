@@ -1,0 +1,83 @@
+.pair-input {
+  display: flex;
+  margin: 0 10%;
+}
+.select {
+  display: table;
+  margin-top: 10%;
+  margin-left: 30%;
+  height: 30px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+select {
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+h3 {
+  margin-left: 30%;
+  margin-top: -5px;
+}
+.grade {
+  margin-top: 7%;
+  margin-bottom: 0px;
+  margin-left: 15%;
+  position: absolute;
+}
+.credit {
+  display: flex;
+  margin-left: 50%;
+  margin-bottom: 0%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .select {
+    margin-top: 10%;
+    margin-left: 50%;
+  }
+  h3 {
+    margin-left: 50%;
+  }
+  .grade {
+    margin-top: 2%;
+    margin-left: 0%;
+  }
+  .credit {
+    margin-bottom: 0px;
+    margin-left: 10%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .select {
+    margin-left: 0%;
+  }
+  h3 {
+    margin-left: 0%;
+  }
+  .grade {
+    margin-top: 1%;
+    margin-left: 45%;
+  }
+  .credit {
+    margin-bottom: 0px;
+    margin-left: 50%;
+  }
+}
+@media only screen and(min-width:1500px) {
+  .grade {
+    margin-top: 1%;
+    margin-left: 46%;
+  }
+  .credit {
+    margin-bottom: 0px;
+  }
+}
